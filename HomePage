@@ -1,0 +1,21 @@
+HomePage:
+
+Elements:
+
+destinoTxt: xpath = "//input[ contains(@class, 'sbox-destination')]"
+fechaSalidaTxt: xpath = "//input[ contains(@class, 'checkin-date')]"
+fechaRegresoTxt: xpath = "//input[ contains(@class, 'sbox-checkout-date')]"
+searchBtn: "//div[@class ='sbox-button' ]"
+
+Methods:
+validarHomePage()
+goTo(url)
+buscarHotel(String destination, String fecha_inicial, String fecha_final)
+
+
+MenuPage:
+
+Elements:
+
+logoLnk: css = ".header-logo-container"
+alojamientoLnk: xpath = "//a[@data-action = 'hotels-click']"	

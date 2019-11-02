@@ -21,6 +21,7 @@ public class SearchHotelSteps {
 
     @When("I search for a hotel in a city")
     public void i_search_for_a_hotel_in_a_city() {
+        despegarSite.home().buscarHotel();
     }
 
     @Then("I will see the results available to book")
